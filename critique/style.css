@@ -1,0 +1,14 @@
+
+
+body{
+    max-width: 80ch;
+    margin: 0 auto;
+
+    font-family: oswald, Courier, monospace, sans-serif;
+}
+
+p { max-width: 80ch;
+    margin: 0 auto;
+
+    font-family: Arial, Helvetica, sans-serif;
+}

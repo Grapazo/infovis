@@ -1,16 +1,54 @@
-ai2html-settings
-settings_version: 0.115.1
-image_format: auto
-responsiveness: fixed
-output: one-file
-html_output_path: /ai2html-output/
-html_output_extension: .html
-image_output_path: 
-local_preview_template: 
-png_number_of_colors: 128
-jpg_quality: 60
-headline: 
-leadin: 
-notes: 
-sources: 
-credit: 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>critique</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="grapazo" />
+    <meta name="description" content="Brief description" />
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+        .responsive {
+          width: 100%;
+          height: auto;
+        }
+        </style>
+  </head>
+  <body  style="background-color: rgb(255, 255, 255)
+  ;">
+   
+    <h2>50 Years Of World Cup Doppelgangers</h2>
+    <p>FiveThirtyEight's MESSI* analysis compares how every athlete played in every men’s World Cup from 1966 to 2018 by generating statistical fingerprints of 5,899 World Cup performances.</p>
+
+    <img width="800" src="../Images/FiveThirtyEight.jpg" class="responsive">
+    <a href="https://projects.fivethirtyeight.com/world-cup-comparisons/">Check out the vis</a>
+    <h2>Critique</h2>    
+   
+    <p><b>Mark: </b>Wedge</p>
+    <br>
+    <p><b>Structure: </b>Radial</p>
+    <p><b>Angle: </b>Wedge</p>
+    <p><b>Radii: </b>min(f):max(f)</p>
+    <br>
+    <p><b>Color: </b>Category</p>
+    <br>
+    <p><b>Annotations: </b></p>
+    <p>Type of Data</p>
+    <p>Category(Attack, Defence, Passing, Other)</p>
+    <p>Player Name, Play Style, Player Profile (image) </p>
+    <br>
+    <p><b>Interaction: Hover State </b></p>
+    <p>Stroked Outline on the hover element</p>
+    <p>Annotations in the center of pie donut</p>
+    <p>Text color: Grey > Black </p>
+    <br>
+
+    <h2>Redesigned Table</h2>    
+   
+    <iframe title="Player name: Christian Pavo" aria-label="Column Chart" id="datawrapper-chart-5cpJj" src="https://datawrapper.dwcdn.net/5cpJj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="469"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
